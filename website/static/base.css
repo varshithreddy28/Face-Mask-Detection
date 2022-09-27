@@ -1,0 +1,45 @@
+body {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+.facemaskDetector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+a.navbar-link.github {
+  color: black;
+  font-size: 1.5em;
+}
+button {
+  background: black;
+  color: white;
+  border: 2px solid;
+  padding: 10px 50px;
+  border-radius: 12px;
+  font-size: large;
+  width: 100%;
+}
+.title {
+  margin-top: 16%;
+}
+span.title_face {
+  font-size: 3.5em;
+}
+button {
+  margin-top: 1em;
+}
